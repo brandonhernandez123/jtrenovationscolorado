@@ -1,5 +1,5 @@
 import react from 'react'
-import logo from '../images/logo.png'
+import logo from '../images/logo.gif'
 import {Container, Row, Col, Image} from 'react-bootstrap'
 
 
@@ -10,7 +10,7 @@ const Landing = () => {
             <Container fluid>
   <Row>
     <Col>
-    <Image fluid  className='logo' src={logo} />
+   
     </Col>
   </Row>
  

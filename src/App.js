@@ -26,9 +26,7 @@ function App() {
       <div id="section4">
         <Gallery />
       </div>
-      <div id="section5">
-        <Testimonials />
-      </div>
+      
       <div id="section6">
         <Contact />
       </div>

@@ -7,55 +7,27 @@ const About = () => {
     return(
         <div className='about'>
             <Container fluid>
-  <Row>
+                <Col>
+                 <Row>
 
    
         <h2 className='aboutus2'>ABOUT US</h2>
-        <p className='fill'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className='fill'>Welcome to J.T. Renovations! With over 20 plus years of experience in the industry, Jose Torres is dedicated to providing top-notch home renovations to the Denver Metro area community. 
+Contact us today to see how we can help you with your next project!</p>
 </Row>
+                </Col>
+                <h2 className='aboutus2'>WHY CHOOSE US?</h2>
+                <Col>
+                
+<p className='fill'>Highly skilled with effective communication skills, I am bilingual and excel in strong customer service. I am precise with time management and proficient at meeting project deadlines, ensuring quality custom work that satisfies clients' requests and visions. From small projects to major renovations, I have the expertise to tackle any project with precision and care. 
+
+Our commitment is quality workmanship and customer satisfaction sets us apart. You can count on us to get the job done right. </p>
+                
+                
+                </Col>
+ 
     <br/>
-    <Row>
-        <h2>WHY CHOOSE US</h2>
-        <Col>
-            <ul className='chooseus'>
-                <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-</svg> Lorem Ipsum Dolor
-                </li>
-                <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-</svg> Lorem Ipsum Dolor
-                </li>
-                <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-</svg> Lorem Ipsum Dolor
-                </li>
-            </ul>
-        </Col>
-        <Col>
-            <ul className='chooseus'>
-            <li>
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-</svg> Lorem Ipsum Dolor
-                </li>
-                <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-</svg> Lorem Ipsum Dolor
-                </li>
-                <li>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-lg" viewBox="0 0 16 16">
-  <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425a.247.247 0 0 1 .02-.022Z"/>
-</svg> Lorem Ipsum Dolor
-                </li>
-            </ul>
-        </Col>
-    </Row>
-    <br/>
+   
   
 <Link
           activeClass="active"

@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   background: #FFB76B;
-  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+  background: linear-gradient(to right, #443f36 0%, #000000 30%, #8b7808 60%, #685503 100%);
 }
 
 
@@ -19,17 +19,19 @@
 }
 
 .navlink {
-  color: white !important;
+  color: gold !important;
 }
 .navlink:hover {
-  background-color: orange;
-  color: black !important;
+  background-color: black;
+  color: red !important;
 }
 
 #section1 {
-  background-image:  url(./images/asphalt.jpeg);
-  background-repeat: no-repeat;
+  background-image:  url(./images/logo.gif);
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
   
 
 }
@@ -127,8 +129,9 @@ color: white;
 }
 
 .services {
-  background: #FFB76B;
-background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+  background: #55534c;
+  color: gold;
+
 
 
 }
@@ -184,8 +187,8 @@ background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%)
 
 
 #section6 {
-  background: #FFB76B;
-  background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%);
+  background: goldenrod;
+  
 
 }
 

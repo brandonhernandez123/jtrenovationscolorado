@@ -20,49 +20,49 @@ const Services = () => {
                 <Row>
                     <Col>
                     
-                    <Image fluid  roundedCircle className='serviceimage' src={asphalt} />
+                    <Image fluid  roundedCircle className='serviceimage' src="https://media.istockphoto.com/id/1463132842/vector/wrench-in-hand-screwdriver-brush-repair-and-service-sign.jpg?s=612x612&w=0&k=20&c=RBWR7k6jh09E9UDXOqviT9hAaex4qmrqX-6gYPnEGbk=" />
                     <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
   <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-</svg>Asphalt Service</h4>
+</svg>GENERAL HANDYMAN WORK</h4>
 
                     </Col>
                     <Col xs={4}>
                        
-                        <Image fluid  roundedCircle  className='serviceimage' src={barricade} />
+                        <Image fluid  roundedCircle  className='serviceimage' src="https://media.istockphoto.com/id/1448540546/vector/floor-worker-man-laying-wooden-panel-of-laminate-professional-contractors-installing-a-floor.jpg?s=612x612&w=0&k=20&c=8OyzHxpb6PXxYi5535ag7bmXAnZIqFtTbZngg6zpqaY=" />
  <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
   <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-</svg>Asphalt Sealcoating</h4>
+</svg>FLOORING</h4>
                     </Col>
                      <Col>
                    
-                        <Image fluid  roundedCircle className='serviceimage' src={laser} />
+                        <Image fluid  roundedCircle className='serviceimage' src='https://media.istockphoto.com/id/970516986/vector/isometric-assembly-of-kitchen-of-furniture-in-the-studio-apartment-concept-repairman-in.jpg?s=612x612&w=0&k=20&c=8JgusOZGZcktjFB3lRT-O9s7HmnhoZU9CYQiGE6AojM=' />
                           <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
   <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-</svg>PotHole Patching</h4>
+</svg>KITCHEN RENOVATION</h4>
                      </Col>
                 </Row>
                 <br/>
                 <Row>
                     <Col>
                     
-                        <Image fluid   roundedCircle className='serviceimage' src={road} />
+                        <Image fluid   roundedCircle className='serviceimage' src="https://media.istockphoto.com/id/1176316907/vector/vector-isometric-tiler-laying-tiles.jpg?s=612x612&w=0&k=20&c=PF2HSLj427OVfOYkx4TC3xe7YHY2r3OyFIxdb_DqAA8=" />
                         <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
   <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-</svg>Driveway Repair</h4>
+</svg>BATHROOM RENOVATIONS</h4>
                     </Col>
                     <Col>
                   
-                        <Image fluid  roundedCircle className='serviceimage' src={roller} />
+                        <Image fluid  roundedCircle className='serviceimage' src="https://media.istockphoto.com/id/1290998914/vector/workers-in-uniforms-install-windows-man-making-house-or-home-apartment-interior-renovation.jpg?s=612x612&w=0&k=20&c=hbxRSwk3x9h0v47hv-CvnmWyaGvIEQDcOMxeYSb4Z1E=" />
                           <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
   <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-</svg>Parking Lot Repair</h4>
+</svg>WINDOWS / SLIDING PATIO DOORS</h4>
                     </Col>
                     <Col>
                     
-                        <Image fluid className='serviceimage'  roundedCircle src={construction} />
+                        <Image fluid className='serviceimage'  roundedCircle src="https://media.istockphoto.com/id/1158098308/vector/pouring-concrete-web-banner-modern-building.jpg?s=612x612&w=0&k=20&c=EI-RPvCGQpRksZ3LYOAfYHqM4zpaCUANAdgdT8oagM4=" />
                         <h4><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cone-striped" viewBox="0 0 16 16">
   <path d="m9.97 4.88.953 3.811C10.159 8.878 9.14 9 8 9c-1.14 0-2.158-.122-2.923-.309L6.03 4.88C6.635 4.957 7.3 5 8 5s1.365-.043 1.97-.12zm-.245-.978L8.97.88C8.718-.13 7.282-.13 7.03.88L6.275 3.9C6.8 3.965 7.382 4 8 4c.618 0 1.2-.036 1.725-.098zm4.396 8.613a.5.5 0 0 1 .037.96l-6 2a.5.5 0 0 1-.316 0l-6-2a.5.5 0 0 1 .037-.96l2.391-.598.565-2.257c.862.212 1.964.339 3.165.339s2.303-.127 3.165-.339l.565 2.257 2.391.598z"/>
-</svg>Driveway Repair</h4>
+</svg>CONCRETE WORK (DRIVEWAYS AND CUSTOM CONCRETE PATIOS) </h4>
                     </Col>
                 </Row>
             </Container>
