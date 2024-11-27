@@ -147,8 +147,8 @@ color: white;
 }
 
 .serviceimage {
-  height: 200px;
-  width: 200px;
+  height: 124px !important;
+  width: 124px !important;
   border: solid black;
 }
 
