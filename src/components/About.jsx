@@ -1,49 +1,59 @@
-import react from 'react'
-import {Container, Row, Col, Button} from 'react-bootstrap'
-import { Link } from 'react-scroll/modules'
-
+import React from 'react';
+import { Container, Row, Col, Button } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 
 const About = () => {
-    return(
-        <div className='about'>
-            <Container fluid>
-                <Col>
-                 <Row>
+    return (
+        <div className="about">
+            <Container fluid className="p-5 bg-light">
+                {/* About Us Section */}
+                <Row className="text-center mb-5">
+                    <Col>
+                        <h2 className="aboutus2 text-uppercase fw-bold">About Us</h2>
+                        <p className="fill lead">
+                            Welcome to <span className="text-primary">J.T. Renovations</span>! With over 20 years of expertise, 
+                            Jose Torres is dedicated to delivering exceptional home renovations to the Denver Metro community. 
+                            From concept to completion, we bring your vision to life with precision and care. 
+                            <span className="d-block mt-3">Contact us today to start your next project!</span>
+                        </p>
+                    </Col>
+                </Row>
 
-   
-        <h2 className='aboutus2'>ABOUT US</h2>
-        <p className='fill'>Welcome to J.T. Renovations! With over 20 plus years of experience in the industry, Jose Torres is dedicated to providing top-notch home renovations to the Denver Metro area community. 
-Contact us today to see how we can help you with your next project!</p>
-</Row>
-                </Col>
-                <h2 className='aboutus2'>WHY CHOOSE US?</h2>
-                <Col>
-                
-<p className='fill'>Highly skilled with effective communication skills, I am bilingual and excel in strong customer service. I am precise with time management and proficient at meeting project deadlines, ensuring quality custom work that satisfies clients' requests and visions. From small projects to major renovations, I have the expertise to tackle any project with precision and care. 
+                {/* Why Choose Us Section */}
+                <Row className="text-center">
+                    <Col>
+                        <h2 className="aboutus2 text-uppercase fw-bold mb-4">Why Choose Us?</h2>
+                        <p className="fill lead">
+                            With exceptional craftsmanship, bilingual communication, and a commitment to client satisfaction, 
+                            <span className="d-block">we stand out in the home renovation industry.</span>
+                            <br />
+                            Whether you’re planning a small upgrade or a complete remodel, we ensure every project is completed on time, 
+                            with precision, and to your exact specifications. 
+                            <span className="d-block mt-3">Experience quality and reliability like never before.</span>
+                        </p>
+                    </Col>
+                </Row>
 
-Our commitment is quality workmanship and customer satisfaction sets us apart. You can count on us to get the job done right. </p>
-                
-                
-                </Col>
- 
-    <br/>
-   
-  
-<Link
-          activeClass="active"
-          to="section6"
-         spy={true}
-         smooth={true}
-         offset={-100}
-         duration={200}>
-           <Button className='submit'>
-               CONTACT US
-          </Button>
-          
-          </Link>
-</Container>
+                {/* Call to Action */}
+                <Row className="text-center mt-5">
+                    <Col>
+                        <Link
+                            activeClass="active"
+                            to="section6"
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={200}
+                        >
+                            <Button className="submit px-4 py-2 text-uppercase fw-bold" variant="primary">
+                                Contact Us
+                            </Button>
+                        </Link>
+                    </Col>
+                </Row>
+            </Container>
         </div>
-    )
-}
+    );
+};
 
 export default About;

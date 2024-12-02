@@ -12,24 +12,25 @@ import Footer from './components/Footer'
 
 function App() {
   return (
-    <div className="App">
+    <div  className="App">
       <Navigation />
-      <div id="section1">
+      <section  className="parallax"  id="section1">
         <Landing />
-      </div>
-      <div id="section2">
+      </section>
+      <section  className="parallax"  id="section2">
         <About />
-      </div>
-      <div id="section3">
+      </section>
+    
+      <section  className="parallax"  id="section3">
         <Services />
-      </div>
-      <div id="section4">
+      </section>
+      <section  className="parallax"  id="section4">
         <Gallery />
-      </div>
+      </section>
       
-      <div id="section6">
+      <section  className="parallax"  id="section6">
         <Contact />
-      </div>
+      </section>
       <footer>
         <Footer />
       </footer>

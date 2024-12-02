@@ -13,7 +13,7 @@ const Services = () => {
         <div className='services'>
             <h2 className='aboutus2'>OUR SERVICES</h2>
             <br/>
-            <h6>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h6>
+            <h6>Here are some of the Services we provide! </h6>
             <br/>
            
             <Container fluid>

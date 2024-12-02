@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: rgb(77, 38, 38);
+  background: #1B263B;
   /* background: linear-gradient(to right, #443f36 0%, #000000 30%, #8b7808 60%, #685503 100%); */
   
 }
@@ -32,7 +32,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 50vh;
   
 
 }
@@ -81,7 +81,7 @@
 
 
 
-.about {
+/* .about {
 
 background-color: #7a7973;
 color: white;
@@ -89,7 +89,7 @@ color: white;
 
 .about .background-image {
   opacity: 0.6;
-}
+} */
 
 
 
@@ -124,11 +124,8 @@ color: white;
 }
 
 .services {
-  background: #55534c;
+  background: rgba(85, 83, 76, 0.7); /* Semi-transparent background */
   color: gold;
-
-
-
 }
 .about {
   height: 600px;
@@ -259,4 +256,183 @@ border-color: white !important;
   background-color: black;
   text-align: center;
   color: white;
+}
+
+.about {
+  padding: 60px 20px;
+  background-color: #ffffff; /* Clean white background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+/* Headings */
+.aboutus2 {
+  font-size: 2.5rem;
+  color: #2c3e50; /* Dark, modern blue-gray */
+  margin-bottom: 20px;
+}
+
+.aboutus2.text-uppercase {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+/* Paragraph Styling */
+.fill {
+  font-size: 1.2rem;
+  color: #555; /* Medium gray for secondary text */
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px; /* Restricts text width for better readability */
+}
+
+.fill span.text-primary {
+  color: #007bff; /* Bootstrap primary blue */
+  font-weight: bold;
+}
+
+/* Button Styling */
+.submit {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  padding: 10px 30px;
+  border-radius: 25px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.submit:hover {
+  background-color: #0056b3; /* Darker blue for hover effect */
+  transform: scale(1.05); /* Subtle zoom on hover */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .aboutus2 {
+      font-size: 2rem; /* Adjust heading size for smaller screens */
+  }
+
+  .fill {
+      font-size: 1rem; /* Adjust paragraph font size */
+      padding: 0 10px;
+  }
+
+  .submit {
+      font-size: 0.9rem;
+      padding: 8px 20px;
+  }
+}
+
+
+/* General Section Styling */
+section {
+  min-height: 100vh; /* Each section fills at least one full screen */
+  padding: 60px 20px; /* Add internal spacing */
+  box-sizing: border-box; /* Ensures padding doesn't affect height */
+}
+
+/* Add spacing between sections */
+section + section {
+  margin-top: 20px; /* Space between sections */
+}
+
+/* Responsive Adjustment */
+@media (max-width: 768px) {
+  section {
+      padding: 40px 10px; /* Reduce padding on smaller screens */
+  }
+}
+
+
+
+.serviceimage:hover {
+  transform: scale(1.1); /* Slight zoom effect */
+  box-shadow: 0 8px 20px rgba(216, 178, 7, 0.5); /* Glowing effect */
+  background-color: #929c00; /* Darker blue for hover effect */
+}
+
+/* Cool Border Glow Effect */
+.serviceimage::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 25px;
+  border: 2px solid rgba(201, 204, 0, 0.5);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(1.2); /* Starts slightly larger */
+}
+
+.serviceimage:hover::before {
+  opacity: 1;
+  transform: scale(1); /* Shrinks to fit the button */
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* Each section takes the full viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* White text for better contrast */
+  text-align: center;
+  overflow: hidden; /* Ensures content stays within the section */
+  transition: background 0.5s ease-in-out !important; /* Smooth transitions between sections */
+}
+
+
+#section2 {
+  background: url('https://wallpapers.com/images/hd/colorado-desktop-0i3qcjmou9igyikc.jpg') center/cover no-repeat !important;
+}
+
+#section3 {
+  background: url('https://mrwallpaper.com/images/hd/ski-houses-aspen-colorado-54umzf1ukwzwdj2t.jpg') center/cover no-repeat !important;
+}
+
+#section4 {
+  background: url('https://images5.alphacoders.com/370/370235.jpg') center/cover no-repeat !important;
+}
+
+#section6 {
+  background: url('https://wallpaperset.com/w/full/0/e/0/485825.jpg') center/cover no-repeat !important;
+}
+
+/* Smooth transitions between sections */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optional Parallax Effect */
+.parallax {
+  background-attachment: fixed; /* Creates a parallax effect */
+  background-size: cover;
+  background-position: center;
+}
+
+/* Add gradient overlay for better text readability */
+.section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 1;
+}
+
+.section-content {
+  position: relative;
+  z-index: 2; /* Ensures content appears above the overlay */
+  padding: 2rem;
+  font-size: 1.5rem;
 }
