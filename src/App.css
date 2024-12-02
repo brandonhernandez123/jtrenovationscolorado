@@ -1,12 +1,13 @@
 .App {
   text-align: center;
-  background: #FFB76B;
-  background: linear-gradient(to right, #443f36 0%, #000000 30%, #8b7808 60%, #685503 100%);
+  background: rgb(77, 38, 38);
+  /* background: linear-gradient(to right, #443f36 0%, #000000 30%, #8b7808 60%, #685503 100%); */
+  
 }
 
 
 .App > div {
-  min-height: 80vh;
+  /* min-height: 80vh; */
   
 }
 
@@ -82,13 +83,7 @@
 
 .about {
 
-background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),url(https://copavementsolutions.com/wp-content/uploads/2021/05/asphalt-stabilization.jpg);
-background-position: center;
-background-size: cover;
-opacity: 0.9;
+background-color: #7a7973;
 color: white;
 }
 
@@ -153,8 +148,7 @@ color: white;
 }
 
 #section4 {
-  background: rgb(195,34,34);
-background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%);
+  background-color: rgb(134, 134, 134);
 
 }
 
@@ -187,7 +181,7 @@ background: linear-gradient(0deg, rgba(195,34,34,1) 0%, rgba(253,187,45,1) 100%)
 
 
 #section6 {
-  background: goldenrod;
+  background: rgb(97, 74, 15);
   
 
 }

@@ -7,7 +7,7 @@ const Footer = () => {
             <Container fluid>
             <Row>
                 <Col>
-                    <p>Created by <span className='brandon'>Brandon Hernandez</span>
+                    <p>Created by <span className='brandon'>Brandev HDZ Studios</span>
                     
                     </p>
 

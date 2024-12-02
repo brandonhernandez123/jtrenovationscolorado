@@ -72,21 +72,7 @@ const Navigation = (props) => {
 
 
      
-      <Nav.Link className='navlink'>
-<Link
-          activeClass="active"
-          to="section5"
-         spy={true}
-         smooth={true}
-         offset={-100}
-         duration={200}>
-          
-          
-          TESTIMONIALS
-          </Link>
-
-
-      </Nav.Link>
+   
      <Nav.Link className='navlink'>
 <Link
           activeClass="active"
