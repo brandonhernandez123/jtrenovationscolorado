@@ -27,7 +27,9 @@ function App() {
       <section  className="parallax"  id="section4">
         <Gallery />
       </section>
-      
+      <section  className="parallax"  id="section4">
+        <Testimonials />
+      </section>
       <section  className="parallax"  id="section6">
         <Contact />
       </section>

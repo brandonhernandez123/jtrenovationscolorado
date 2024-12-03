@@ -1,394 +1,43 @@
+/* General App Styling */
 .App {
   text-align: center;
   background: #1B263B;
-  /* background: linear-gradient(to right, #443f36 0%, #000000 30%, #8b7808 60%, #685503 100%); */
-  
+  overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
-
-.App > div {
-  /* min-height: 80vh; */
-  
-}
-
-.nav  {
-  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg);
+/* Navigation Styling */
+.nav {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://thumbs.dreamstime.com/b/asphalt-road-backgrounds-yellow-dividing-lines-asphalt-background-directly-above-180950887.jpg);
   color: white !important;
-  position: sticky top !important;
-  height: 60px !important;
-
-}
-
-.navlink {
-  color: gold !important;
-}
-.navlink:hover {
-  background-color: black;
-  color: red !important;
-}
-
-#section1 {
-  background-image:  url(./images/logo.gif);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  
-
-}
-
-.aboutus {
-  text-decoration: underline orange;
-  text-decoration-thickness: 11px;
-}
-
-
-.aboutp {
-  color: white;
-}
-
-@media only screen and (min-width: 800px) {
- .aboutp {
-   width: 50%;
-   text-align: center !important;
-   margin-left: 500px;
-
-   margin-top: 50px;
- }
-
- 
-}
-
-.aboutus2 {
-  text-decoration: underline black;
-  text-decoration-thickness: 8px;
-}
-
-.aboutus2 {
-  text-decoration: underline black;
-  text-decoration-thickness: 5px;
-  color: white;
-}
-
-.contact-info{
-  padding-top: 100px;
-  color: white;
-}
-
-.getintouch {
-  padding-top: 80px;
-}
-
-
-
-/* .about {
-
-background-color: #7a7973;
-color: white;
-}
-
-.about .background-image {
-  opacity: 0.6;
-} */
-
-
-
-.logo:hover {
-  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-
-
-
-.subtitle {
-  color: orange;
-}
-
-
-
-#section3{
- 
-  height: -500px;
- 
-}
-
-.landing {
-  color: white;
-
-}
-
-
-
-.navtitle {
-  font-size: 45px;
-}
-
-.services {
-  background: rgba(85, 83, 76, 0.7); /* Semi-transparent background */
-  color: gold;
-}
-.about {
-  height: 600px;
-}
-
-.aboutimage {
-  height: 300px;
-  width: 500px;
-  margin-top: 100px;
-  margin-left: 20px;
-}
-
-.serviceimage {
-  height: 124px !important;
-  width: 124px !important;
-  border: solid black;
-}
-
-#section4 {
-  background-color: rgb(134, 134, 134);
-
-}
-
-#section5{
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.5),
-    rgba(0, 0, 0, 0.5)
-  ),url(https://raffertypaving.net/files/2020/12/paving3.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-}
-
-.gallerylist {
-  align-content: center !important;
-}
-
-.review {
-  color: white;
-  width: 75%;
-  text-align: justify;
-}
-
-.owner {
-  text-decoration: solid white;
-  font-weight: bolder;
-}
-
-
-
-#section6 {
-  background: rgb(97, 74, 15);
-  
-
-}
-
-.submit {
-  width: 200px !important;
-  height: 50px !important;
-  background-color: transparent !important;
-color: white !important;
-border-radius: 150px 150px 125px 125px  !important ;
-border-color: white !important;
-}
-.submit:hover{
-  background-color: white !important;
-  color: black !important;
-  border-color: black !important;
-  
-}
-
-.fill {
-  color: white;
-}
-
-.cardbody {
-  background-color: black !important;
-  color: white !important;
-}
-
-
-
-@media only screen and (max-width: 576px) {
-  #section5 {
-   
-    background-image: linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),url(https://wallpaperaccess.com/full/2190035.jpg);
-  }
-  .logo {
-    padding-top: 50px;
-  }
-
-  
- 
-}
-
-
-
-.underline {
-  text-decoration: underline solid white;
-}
-
-.sticky-top {
-  position: fixed !important;
+  position: sticky;
   top: 0 !important;
-  width: 100% !important;
- 
+  height: 60px !important;
+  background-size: cover;
+  background-position: center;
 }
 
-.testimonialimage{
-  border-radius: 25px !important;
-}
-
-.chooseus {
-  list-style: none;
-}
-
-
-.brandon {
-  color: red;
-  text-decoration: wavy;
-}
-
-.footer {
-  background-color: black;
-  text-align: center;
-  color: white;
-}
-
-.about {
-  padding: 60px 20px;
-  background-color: #ffffff; /* Clean white background */
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-  margin: 20px auto;
-  max-width: 900px;
-}
-
-/* Headings */
-.aboutus2 {
-  font-size: 2.5rem;
-  color: #2c3e50; /* Dark, modern blue-gray */
-  margin-bottom: 20px;
-}
-
-.aboutus2.text-uppercase {
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-/* Paragraph Styling */
-.fill {
-  font-size: 1.2rem;
-  color: #555; /* Medium gray for secondary text */
-  text-align: center;
-  margin: 0 auto;
-  max-width: 800px; /* Restricts text width for better readability */
-}
-
-.fill span.text-primary {
-  color: #007bff; /* Bootstrap primary blue */
-  font-weight: bold;
-}
-
-/* Button Styling */
-.submit {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  font-size: 1rem;
-  padding: 10px 30px;
-  border-radius: 25px;
-  transition: background-color 0.3s, transform 0.2s;
-}
-
-.submit:hover {
-  background-color: #0056b3; /* Darker blue for hover effect */
-  transform: scale(1.05); /* Subtle zoom on hover */
-}
-
-/* Media Queries for Responsiveness */
-@media (max-width: 768px) {
-  .aboutus2 {
-      font-size: 2rem; /* Adjust heading size for smaller screens */
-  }
-
-  .fill {
-      font-size: 1rem; /* Adjust paragraph font size */
-      padding: 0 10px;
-  }
-
-  .submit {
-      font-size: 0.9rem;
-      padding: 8px 20px;
-  }
-}
-
-
-/* General Section Styling */
+/* Section Styling */
 section {
-  min-height: 100vh; /* Each section fills at least one full screen */
-  padding: 60px 20px; /* Add internal spacing */
-  box-sizing: border-box; /* Ensures padding doesn't affect height */
-}
-
-/* Add spacing between sections */
-section + section {
-  margin-top: 20px; /* Space between sections */
-}
-
-/* Responsive Adjustment */
-@media (max-width: 768px) {
-  section {
-      padding: 40px 10px; /* Reduce padding on smaller screens */
-  }
-}
-
-
-
-.serviceimage:hover {
-  transform: scale(1.1); /* Slight zoom effect */
-  box-shadow: 0 8px 20px rgba(216, 178, 7, 0.5); /* Glowing effect */
-  background-color: #929c00; /* Darker blue for hover effect */
-}
-
-/* Cool Border Glow Effect */
-.serviceimage::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  border-radius: 25px;
-  border: 2px solid rgba(201, 204, 0, 0.5);
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  transform: scale(1.2); /* Starts slightly larger */
-}
-
-.serviceimage:hover::before {
-  opacity: 1;
-  transform: scale(1); /* Shrinks to fit the button */
-}
-
-.section {
+  min-height: 100vh;
+  padding: 60px 20px;
+  box-sizing: border-box;
   position: relative;
-  width: 100%;
-  min-height: 100vh; /* Each section takes the full viewport height */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff; /* White text for better contrast */
-  text-align: center;
-  overflow: hidden; /* Ensures content stays within the section */
-  transition: background 0.5s ease-in-out !important; /* Smooth transitions between sections */
+  background-attachment: fixed; /* Parallax effect */
+  background-size: cover; /* Ensure the background covers the section */
+  background-position: center;
+  transition: background-position 0.3s ease-in-out;
 }
 
+/* Ensure all sections have smooth transitions */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Section Backgrounds */
+#section1 {
+  background-image: url(./images/logo.gif);
+  height: 50vh;
+}
 
 #section2 {
   background: url('https://wallpapers.com/images/hd/colorado-desktop-0i3qcjmou9igyikc.jpg') center/cover no-repeat !important;
@@ -406,33 +55,66 @@ section + section {
   background: url('https://wallpaperset.com/w/full/0/e/0/485825.jpg') center/cover no-repeat !important;
 }
 
-/* Smooth transitions between sections */
-html {
-  scroll-behavior: smooth;
+#section5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://raffertypaving.net/files/2020/12/paving3.jpg);
+  color: white;
 }
 
-/* Optional Parallax Effect */
-.parallax {
-  background-attachment: fixed; /* Creates a parallax effect */
+/* Parallax Effect */
+section {
+  background-attachment: fixed;
   background-size: cover;
-  background-position: center;
+  background-position: center center;
 }
 
-/* Add gradient overlay for better text readability */
-.section::before {
+/* Ensure sections don't overlap */
+#section3 {
+  min-height: 100vh;
+}
+
+/* Styling for individual sections */
+.services {
+  background: rgba(85, 83, 76, 0.7);
+  color: gold;
+}
+
+/* Optional: Cool Border Glow Effect for Service Images */
+.serviceimage {
+  height: 124px !important; /* Fixed height */
+  width: 124px !important;  /* Fixed width */
+  object-fit: cover;        /* Ensures the image covers the container without distortion */
+  border: solid black;
+  margin: 10px;             /* Optional: Adjust margin for spacing between images */
+}
+
+.serviceimage:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 20px rgba(216, 178, 7, 0.5);
+  background-color: #929c00;
+}
+
+.serviceimage::before {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
-  z-index: 1;
+  border-radius: 25px;
+  border: 2px solid rgba(201, 204, 0, 0.5);
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  transform: scale(1.2);
 }
 
-.section-content {
-  position: relative;
-  z-index: 2; /* Ensures content appears above the overlay */
-  padding: 2rem;
-  font-size: 1.5rem;
+.serviceimage:hover::before {
+  opacity: 1;
+  transform: scale(1);
 }
+
+/* Additional Styling for Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
